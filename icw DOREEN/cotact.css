@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: lightskyblue;
+    color: #333;
+  }
+  
+  
+  main container{
+    background-color:lightgreen;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  form {
+    flex: 1 1 350px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: cornflowerblue;
+  } */
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    margin-top: 1.5rem;
+    background-color: green;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: green;
+  }
+  
+
+  .contact-inform{
+    text-align: center;
+    padding: 1.5rem;
+    background-color: gray;
+    font-size: 0.9rem;
+  }
+  

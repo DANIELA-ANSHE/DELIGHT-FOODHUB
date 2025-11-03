@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+}
+.logo{
+    text-align: center;
+    width: 100%;
+    background: violet;
+}
+.intro{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+
+}
+.vision h1, .vision p{
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+
+}
+.vision img{
+    width: 100%;
+    border-radius: 40px;
+    margin: 25px 15px;
+}
+.our team img{
+display: flex;
+border-radius: 20px;
+box-sizing: 25%;
+}
